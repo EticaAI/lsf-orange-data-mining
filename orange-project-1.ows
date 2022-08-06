@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+    <nodes>
+        <node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File" position="(98.0, 120.0)" />
+        <node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table" position="(364.0, 80.0)" />
+        <node id="2" name="Correlations" qualified_name="Orange.widgets.data.owcorrelations.OWCorrelations" project_name="Orange3" version="" title="Correlations" position="(231.0, 310.0)" />
+        <node id="3" name="Test and Score" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" project_name="Orange3" version="" title="Test and Score" position="(785.0, 82.0)" />
+        <node id="4" name="Logistic Regression" qualified_name="Orange.widgets.model.owlogisticregression.OWLogisticRegression" project_name="Orange3" version="" title="Logistic Regression" position="(559.0, 208.0)" />
+        <node id="5" name="Predictions" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" project_name="Orange3" version="" title="Predictions" position="(725.0, 335.0)" />
+        <node id="6" name="Confusion Matrix" qualified_name="Orange.widgets.evaluate.owconfusionmatrix.OWConfusionMatrix" project_name="Orange3" version="" title="Confusion Matrix" position="(839.0, 481.0)" />
+        <node id="7" name="AdaBoost" qualified_name="Orange.widgets.model.owadaboost.OWAdaBoost" project_name="Orange3" version="" title="AdaBoost" position="(519.0, 363.0)" />
+        <node id="8" name="Feature Statistics" qualified_name="Orange.widgets.data.owfeaturestatistics.OWFeatureStatistics" project_name="Orange3" version="" title="Feature Statistics" position="(387.0, 339.0)" />
+        <node id="9" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns" position="(138.0, 429.0)" />
+        <node id="10" name="Correlations" qualified_name="Orange.widgets.data.owcorrelations.OWCorrelations" project_name="Orange3" version="" title="Correlations (1)" position="(251.0, 640.0)" />
+        <node id="11" name="AdaBoost" qualified_name="Orange.widgets.model.owadaboost.OWAdaBoost" project_name="Orange3" version="" title="AdaBoost (1)" position="(393.0, 664.0)" />
+        <node id="12" name="Predictions" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" project_name="Orange3" version="" title="Predictions (1)" position="(563.0, 588.0)" />
+    </nodes>
+    <links>
+        <link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" />
+        <link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" />
+        <link id="2" source_node_id="1" sink_node_id="3" source_channel="Selected Data" sink_channel="Data" enabled="true" />
+        <link id="3" source_node_id="0" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" />
+        <link id="4" source_node_id="4" sink_node_id="3" source_channel="Learner" sink_channel="Learner" enabled="true" />
+        <link id="5" source_node_id="4" sink_node_id="5" source_channel="Model" sink_channel="Predictors" enabled="true" />
+        <link id="6" source_node_id="0" sink_node_id="5" source_channel="Data" sink_channel="Data" enabled="false" />
+        <link id="7" source_node_id="5" sink_node_id="6" source_channel="Evaluation Results" sink_channel="Evaluation Results" enabled="true" />
+        <link id="8" source_node_id="0" sink_node_id="7" source_channel="Data" sink_channel="Data" enabled="true" />
+        <link id="9" source_node_id="7" sink_node_id="5" source_channel="Model" sink_channel="Predictors" enabled="true" />
+        <link id="10" source_node_id="2" sink_node_id="8" source_channel="Data" sink_channel="Data" enabled="true" />
+        <link id="11" source_node_id="0" sink_node_id="9" source_channel="Data" sink_channel="Data" enabled="false" />
+        <link id="12" source_node_id="9" sink_node_id="10" source_channel="Data" sink_channel="Data" enabled="true" />
+        <link id="13" source_node_id="10" sink_node_id="11" source_channel="Data" sink_channel="Data" enabled="true" />
+        <link id="14" source_node_id="11" sink_node_id="12" source_channel="Model" sink_channel="Predictors" enabled="true" />
+        <link id="15" source_node_id="10" sink_node_id="12" source_channel="Data" sink_channel="Data" enabled="true" />
+    </links>
+    <annotations />
+    <thumbnail />
+    <node_properties>
+
+        <properties node_id="0" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'VarPath', 'name': 'basedir', 'relpath': '[[numerordinatio_archivo]]'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 16, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, '__version__': 3}</properties>
+
+    </node_properties>
+    <session_state>
+        <window_groups />
+    </session_state>
+</scheme>
