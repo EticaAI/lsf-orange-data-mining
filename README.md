@@ -2,6 +2,29 @@
 
 - https://orangedatamining.com/
 
+## How to use the files
+
+### Setup
+- https://orangedatamining.com/download/
+
+```bash
+# Minimal
+pip install orange3
+
+# Additional
+pip install Orange3-Geo
+pip install Orange3-Timeseries
+pip install orange3-text
+
+```
+
+### Running Orange3
+
+```bash
+orange-canvas
+```
+
+
 # License
 
 [![Public Domain Dedication](img/public-domain.png)](UNLICENSE)
