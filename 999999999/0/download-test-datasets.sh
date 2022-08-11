@@ -1,7 +1,7 @@
 #!/bin/bash
 #===============================================================================
 #
-#          FILE:  0_9.sh
+#          FILE:  download-test-datasets.sh
 #
 #         USAGE:  ./999999999/0/download-test-datasets.sh
 #
@@ -18,7 +18,7 @@
 #       LICENSE:  Public Domain dedication or Zero-Clause BSD
 #                 SPDX-License-Identifier: Unlicense OR 0BSD
 #       VERSION:  v1.0
-#       CREATED:  2022-01-10 00:42 UTC
+#       CREATED:  2022-08-11 16:21 UTC
 #      REVISION:  ---
 #===============================================================================
 # Comment next line if not want to stop on first error
