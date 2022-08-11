@@ -68,21 +68,42 @@ orange-canvas
 
 For sake of allow comparisons, regardless of have very detailed tables (such as by year 1960-2020) to allow comparisons, is necessary to know baselines (likely last year, even if approximate) for features such as:
 
-- Total population
-  - Example:
-    - <https://data.worldbank.org/indicator/SP.POP.TOTL>
-    - population (P1082) <https://www.wikidata.org/wiki/Property:P1082>
-- GDP (current US$)
-  - Example:
-    - <https://data.worldbank.org/indicator/NY.GDP.MKTP.CD>
-    - nominal GDP (P2131) https://www.wikidata.org/wiki/Property:P2131
-    - nominal GDP per capita (P2132) <https://www.wikidata.org/wiki/Property:P2132>
-- Surface area (sq. km)
-  - Example:
-    - <https://data.worldbank.org/indicator/AG.SRF.TOTL.K2>
-    - area (P2046) <https://www.wikidata.org/wiki/Property:P2046>
-- Location, continent
+## Tier 1
+- **Surface area (sq. km)**
+  - <https://data.worldbank.org/indicator/AG.SRF.TOTL.K2>
+  - area (P2046) <https://www.wikidata.org/wiki/Property:P2046>
+- **Total population**
+  - <https://data.worldbank.org/indicator/SP.POP.TOTL>
+  - population (P1082) <https://www.wikidata.org/wiki/Property:P1082>
+- **GDP (current US$)**
+  - <https://data.worldbank.org/indicator/NY.GDP.MKTP.CD>
+  - nominal GDP (P2131) https://www.wikidata.org/wiki/Property:P2131
+  - nominal GDP per capita (P2132) <https://www.wikidata.org/wiki/Property:P2132>
+
+## Tier 2
+
+- **Literacy rate**
+  - literacy rate (P6897) <https://www.wikidata.org/wiki/Property:P6897>
+  - <https://data.worldbank.org/indicator/SE.ADT.LITR.ZS>
+    - Note to self: strange. It's incomplete
+- **Unemployment**
+  - unemployment rate (P1198) https://www.wikidata.org/wiki/Property:P1198
+  - <https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS>
+    - This other migth be relevant: <https://data.worldbank.org/indicator/SL.EMP.TOTL.SP.ZS>
+- **Arable land (% of land area)**
+  - https://data.worldbank.org/indicator/AG.LND.ARBL.ZS
+
+## Tier 3
+> Not sure about these ones
+
+- **Location, continent**
   - continent (P30) <https://www.wikidata.org/wiki/Property:P30>
+- **rural population**
+  - <https://data.worldbank.org/indicator/SP.RUR.TOTL>
+  - rural population (P6344) <https://www.wikidata.org/wiki/Property:P6344>
+- **urban population (P6343)**
+  - <https://www.wikidata.org/wiki/Property:P6343>
+
 
 <!--
 
