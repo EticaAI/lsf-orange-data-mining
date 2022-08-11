@@ -68,7 +68,8 @@ orange-canvas
 
 For sake of allow comparisons, regardless of have very detailed tables (such as by year 1960-2020) to allow comparisons, is necessary to know baselines (likely last year, even if approximate) for features such as:
 
-## Tier 1
+## Generic baseline
+### Tier 1
 - **Surface area (sq. km)**
   - <https://data.worldbank.org/indicator/AG.SRF.TOTL.K2>
   - area (P2046) <https://www.wikidata.org/wiki/Property:P2046>
@@ -78,9 +79,11 @@ For sake of allow comparisons, regardless of have very detailed tables (such as 
 - **GDP (current US$)**
   - <https://data.worldbank.org/indicator/NY.GDP.MKTP.CD>
   - nominal GDP (P2131) https://www.wikidata.org/wiki/Property:P2131
-  - nominal GDP per capita (P2132) <https://www.wikidata.org/wiki/Property:P2132>
+  - Related:
+    - nominal GDP per capita (P2132) <https://www.wikidata.org/wiki/Property:P2132>
+    - GDP (current LCU) <https://data.worldbank.org/indicator/NY.GDP.MKTP.CN>
 
-## Tier 2
+### Tier 2
 
 - **Literacy rate**
   - literacy rate (P6897) <https://www.wikidata.org/wiki/Property:P6897>
@@ -92,8 +95,22 @@ For sake of allow comparisons, regardless of have very detailed tables (such as 
     - This other migth be relevant: <https://data.worldbank.org/indicator/SL.EMP.TOTL.SP.ZS>
 - **Arable land (% of land area)**
   - https://data.worldbank.org/indicator/AG.LND.ARBL.ZS
+- **Live expectancy**
+  - life expectancy (P2250) <https://www.wikidata.org/wiki/Property:P2250>
+  - <https://data.worldbank.org/indicator/SP.DYN.LE00.IN>
+- **Gini coefficient**
+  - <https://data.worldbank.org/indicator/SI.POV.GINI>
+  - Gini coefficient (P1125) https://www.wikidata.org/wiki/Property:P1125
+- **Human Development Index (P1081)**
+  - Human Development Index (P1081) <https://www.wikidata.org/wiki/Property:P1081>
+- **GDP divided by the population total and adjusted for CPI**
+  - PPP GDP per capita (P2299) <https://www.wikidata.org/wiki/Property:P2299>
+  - <https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD>
+- **Armed forces personnel, total**
+  - <https://data.worldbank.org/indicator/MS.MIL.TOTL.P1>
 
-## Tier 3
+
+### Tier 3
 > Not sure about these ones
 
 - **Location, continent**
@@ -103,6 +120,27 @@ For sake of allow comparisons, regardless of have very detailed tables (such as 
   - rural population (P6344) <https://www.wikidata.org/wiki/Property:P6344>
 - **urban population (P6343)**
   - <https://www.wikidata.org/wiki/Property:P6343>
+- **Other**
+  - Potential hints being colony in the past
+    - https://www.wikidata.org/wiki/Property:P571
+- **Military expenditure (% of GDP)**
+  - <https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS>
+- **Tax revenue (% of GDP)**
+  - <https://data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS>
+
+
+## (Example of target data)
+
+- **Refugee population by country or territory of origin**
+  - <https://data.worldbank.org/indicator/SM.POP.REFG.OR>
+- **Refugee population by country or territory of asylum**
+  - <https://data.worldbank.org/indicator/SM.POP.REFG>
+- **Internally displaced persons, total displaced by conflict and violence (number of people)**
+  - <https://data.worldbank.org/indicator/VC.IDP.TOCV>
+- **Internally displaced persons, new displacement associated with conflict and violence (number of cases)**
+  - <https://data.worldbank.org/indicator/VC.IDP.NWCV>
+- **Internally displaced persons, new displacement associated with disasters (number of cases)**
+  - <https://data.worldbank.org/indicator/VC.IDP.NWDS>
 
 
 <!--
