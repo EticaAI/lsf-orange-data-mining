@@ -1,8 +1,13 @@
-# Lexicographī Sine Fīnibus dictiōnāriīs cum Orange Data Minin
+# Lexicographī Sine Fīnibus dictiōnāriīs cum Orange Data Mining
+This repository contains `.ows` [Orange3](https://orangedatamining.com/)
+workflow files for some use cases.
 
-- https://orangedatamining.com/
+> **PROTIP: consider also the <https://orangedatamining.com/workflows/> and the Youtube Channel <https://www.youtube.com/channel/UClKKWBe2SCAEyv7ZNGhIe4g>**
+
 
 ## How to use the files
+
+Each `.ows` requires Orange3 installed. The next steps explain one way to do it
 
 ### Setup
 - https://orangedatamining.com/download/
@@ -15,6 +20,8 @@ pip install orange3
 pip install Orange3-Geo
 pip install Orange3-Timeseries
 pip install orange3-text
+
+# @TODO explain how to install https://github.com/fititnt/orange3-hxl
 
 ```
 
@@ -46,6 +53,45 @@ orange-canvas
   - https://raw.githubusercontent.com/MDCIII/1603_9966_1/main/1603/9966/1/0/1603_9966_1_0.no1.tm.hxl.csv
 
 -->
+
+## Preparing new release
+
+> Why? Orange working files store base64 encoded data with
+  `<properties format="pickle"></properties>`. This command remove them
+  and save on the git tracked files.
+
+```bash
+./999999999/0/prepare-orange-files.sh
+```
+
+# To Dos
+
+For sake of allow comparisons, regardless of have very detailed tables (such as by year 1960-2020) to allow comparisons, is necessary to know baselines (likely last year, even if approximate) for features such as:
+
+- Total population
+  - Example:
+    - <https://data.worldbank.org/indicator/SP.POP.TOTL>
+    - population (P1082) <https://www.wikidata.org/wiki/Property:P1082>
+- GDP (current US$)
+  - Example:
+    - <https://data.worldbank.org/indicator/NY.GDP.MKTP.CD>
+    - nominal GDP (P2131) https://www.wikidata.org/wiki/Property:P2131
+    - nominal GDP per capita (P2132) <https://www.wikidata.org/wiki/Property:P2132>
+- Surface area (sq. km)
+  - Example:
+    - <https://data.worldbank.org/indicator/AG.SRF.TOTL.K2>
+    - area (P2046) <https://www.wikidata.org/wiki/Property:P2046>
+- Location, continent
+  - continent (P30) <https://www.wikidata.org/wiki/Property:P30>
+
+<!--
+
+- https://www.wikidata.org/wiki/Q155
+  - time of discovery or invention (P575) <https://www.wikidata.org/wiki/Property:P575>
+    - Maybe this could be used as proxy for data of past cononization
+
+-->
+
 
 # License
 
