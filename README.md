@@ -76,12 +76,27 @@ For sake of allow comparisons, regardless of have very detailed tables (such as 
 - **Total population**
   - <https://data.worldbank.org/indicator/SP.POP.TOTL>
   - population (P1082) <https://www.wikidata.org/wiki/Property:P1082>
+- **CO2 emissions (kt)**
+  - https://data.worldbank.org/indicator/EN.ATM.CO2E.KT
 - **GDP (current US$)**
   - <https://data.worldbank.org/indicator/NY.GDP.MKTP.CD>
   - nominal GDP (P2131) https://www.wikidata.org/wiki/Property:P2131
   - Related:
     - nominal GDP per capita (P2132) <https://www.wikidata.org/wiki/Property:P2132>
-    - GDP (current LCU) <https://data.worldbank.org/indicator/NY.GDP.MKTP.CN>
+    - **GDP (current LCU)** <https://data.worldbank.org/indicator/NY.GDP.MKTP.CN>
+**GNI (current US$)**
+  - _Note: can be alternative to GDP_
+  - <https://data.worldbank.org/indicator/NY.GNP.MKTP.CD>
+  - Related:
+    - GNI (current LCU) https://data.worldbank.org/indicator/NY.GNP.MKTP.CN
+- **Total reserves (includes gold, current US$)**
+  - <https://data.worldbank.org/indicator/FI.RES.TOTL.CD>
+  - Related:
+    - https://data.worldbank.org/indicator/FI.RES.TOTL.MO
+- **Stocks traded, total value (current US$)**
+  - <https://data.worldbank.org/indicator/CM.MKT.TRAD.CD>
+- **Renewable internal freshwater resources, total (billion cubic meters)**
+  - <https://data.worldbank.org/indicator/CM.MKT.TRAD.CD?>
 
 ### Tier 2
 
@@ -89,12 +104,18 @@ For sake of allow comparisons, regardless of have very detailed tables (such as 
   - literacy rate (P6897) <https://www.wikidata.org/wiki/Property:P6897>
   - <https://data.worldbank.org/indicator/SE.ADT.LITR.ZS>
     - Note to self: strange. It's incomplete
+- **Labor force, total**
+  - <https://data.worldbank.org/indicator/SL.TLF.TOTL.IN>
 - **Unemployment**
   - unemployment rate (P1198) https://www.wikidata.org/wiki/Property:P1198
   - <https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS>
     - This other migth be relevant: <https://data.worldbank.org/indicator/SL.EMP.TOTL.SP.ZS>
 - **Arable land (% of land area)**
   - https://data.worldbank.org/indicator/AG.LND.ARBL.ZS
+- **Agricultural land (% of land area)**
+  - https://data.worldbank.org/indicator/AG.LND.AGRI.ZS
+- **Forest area (sq. km)**
+  - https://data.worldbank.org/indicator/AG.LND.FRST.K2
 - **Live expectancy**
   - life expectancy (P2250) <https://www.wikidata.org/wiki/Property:P2250>
   - <https://data.worldbank.org/indicator/SP.DYN.LE00.IN>
@@ -108,7 +129,8 @@ For sake of allow comparisons, regardless of have very detailed tables (such as 
   - <https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.CD>
 - **Armed forces personnel, total**
   - <https://data.worldbank.org/indicator/MS.MIL.TOTL.P1>
-
+- **Average precipitation in depth (mm per year)**
+  - https://data.worldbank.org/indicator/AG.LND.PRCP.MM
 
 ### Tier 3
 > Not sure about these ones
@@ -129,6 +151,17 @@ For sake of allow comparisons, regardless of have very detailed tables (such as 
   - <https://data.worldbank.org/indicator/GC.TAX.TOTL.GD.ZS>
 
 
+<!--
+- Food exports (% of merchandise exports) https://data.worldbank.org/indicator/TX.VAL.FOOD.ZS.UN
+- Food imports (% of merchandise imports) https://data.worldbank.org/indicator/TM.VAL.FOOD.ZS.UN
+- Ores and metals exports (% of merchandise exports) https://data.worldbank.org/indicator/TX.VAL.MMTL.ZS.UN
+- Trade in services (% of GDP) https://data.worldbank.org/indicator/BG.GSR.NFSV.GD.ZS
+- Taxes on international trade (% of revenue) https://data.worldbank.org/indicator/GC.TAX.INTT.RV.ZS?
+- Inflation, GDP deflator (annual %) https://data.worldbank.org/indicator/NY.GDP.DEFL.KD.ZG
+- Inflation, consumer prices (annual %) https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG
+- Access to electricity (% of population) https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS
+-->
+
 ## (Example of target data)
 
 - **Refugee population by country or territory of origin**
@@ -141,8 +174,10 @@ For sake of allow comparisons, regardless of have very detailed tables (such as 
   - <https://data.worldbank.org/indicator/VC.IDP.NWCV>
 - **Internally displaced persons, new displacement associated with disasters (number of cases)**
   - <https://data.worldbank.org/indicator/VC.IDP.NWDS>
-
-
+- **Prevalence of moderate or severe food insecurity in the population (%)**
+  - <https://data.worldbank.org/indicator/SN.ITK.MSFI.ZS>
+- **Prevalence of severe food insecurity in the population (%)**
+  - <https://data.worldbank.org/indicator/SN.ITK.SVFI.ZS>
 <!--
 
 - https://www.wikidata.org/wiki/Q155
