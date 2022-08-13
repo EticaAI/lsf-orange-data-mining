@@ -1,0 +1,16 @@
+#item+age	#item+target
+continuous	adolescent adult child elderly fetus infant neonate preadolescent toddler
+	class
+-0.5	fetus
+0.08	neonate
+0.09	infant
+1.5	toddler
+3.1	child
+7.5	child
+10.5	preadolescent
+13.5	adolescent
+15.5	adolescent
+22.5	adult
+45.5	adult
+60.5	elderly
+90.5	elderly
