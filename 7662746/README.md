@@ -17,6 +17,17 @@ See also
 ![File:Child development stages.svg
 ](https://upload.wikimedia.org/wikipedia/commons/9/9e/Child_development_stages.svg)
 
+### homicide
+- References:
+  - https://en.wikipedia.org/wiki/Homicide
+  - https://en.wikipedia.org/wiki/Justifiable_homicide
+  - https://en.wikipedia.org/wiki/Hors_de_combat
+
+### jus-ad-bellum
+- References:
+  - https://en.wikipedia.org/wiki/Just_war_theory
+  - https://en.wikipedia.org/wiki/Jus_ad_bellum
+
 ### marriage-age
 - References:
   - https://en.wikipedia.org/wiki/Marriageable_age

@@ -1,0 +1,11 @@
+#item+proper_authority	#item+just_cause	#item+last_resort	#item+probability_of_success	#item+bellum_iustum
+discrete	discrete	discrete	discrete	false true
+				class
+false	false	false	false	false
+false	false	false	true	false
+true	false	true	false	false
+true	false	true	true	false
+true	true	false	false	false
+true	true	false	true	false
+true	true	true	false	false
+true	true	true	true	true

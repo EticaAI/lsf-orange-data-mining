@@ -1,0 +1,9 @@
+#item+act_self_defence	#item+act_others_defence	#item+justifiable_homicide_group
+discrete	discrete	false true
+		class
+false	false	false
+true	false	true
+true	true	true
+false	true	true
+?	true	true
+true	?	true
