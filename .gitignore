@@ -5,3 +5,5 @@
 
 7662746/*.hxl.csv
 1568346/*.hxl.csv
+!1568346/*.in.data.hxl.csv
+!1568346/*.out.data.hxl.csv

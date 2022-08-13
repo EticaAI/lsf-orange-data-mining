@@ -1,4 +1,4 @@
-#item+age	#item+age_group
+#item+age	#item+age_group+target
 continuous	adolescent adult child elderly fetus infant neonate preadolescent toddler
 	class
 -0.75	fetus

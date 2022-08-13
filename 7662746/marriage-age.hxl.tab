@@ -1,4 +1,4 @@
-#item+age	#item+marriage_group
+#item+age	#item+marriage_group+target
 continuous	false true
 	class
 0.0	false

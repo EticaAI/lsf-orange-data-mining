@@ -1,0 +1,36 @@
+#item+id,#item+age,#meta+comment,#item+age_group,#item+marriage_group
+1.0,0.001,,neonate,false
+2.0,1.0,,toddler,false
+3.0,2.0,,toddler,false
+4.0,3.0,,child,false
+5.0,4.0,,child,false
+6.0,5.0,,child,false
+7.0,6.0,,child,false
+8.0,7.0,,child,false
+9.0,8.0,,child,false
+10.0,9.0,,preadolescent,false
+11.0,10.0,,preadolescent,false
+12.0,11.0,,preadolescent,false
+13.0,12.0,,adolescent,false
+14.0,13.0,marriage-age can fail,adolescent,false
+15.0,14.0,marriage-age can fail,adolescent,false
+16.0,15.0,marriage-age can fail,adolescent,false
+17.0,16.0,marriage-age can fail,adolescent,true
+18.0,17.0,marriage-age can fail,adolescent,true
+19.0,18.0,marriage-age can fail,adolescent,true
+20.0,19.0,marriage-age can fail,adolescent,true
+21.0,20.0,marriage-age can fail,adolescent,true
+22.0,21.0,,adult,true
+23.0,22.0,,adult,true
+24.0,23.0,,adult,true
+25.0,24.0,,adult,true
+26.0,25.0,,adult,true
+27.0,25.0,,adult,true
+28.0,30.0,,adult,true
+29.0,40.0,,adult,true
+30.0,50.0,,adult,true
+31.0,60.0,,elderly,true
+32.0,70.0,,elderly,true
+33.0,80.0,,elderly,true
+34.0,90.0,,elderly,true
+35.0,100.0,,elderly,true

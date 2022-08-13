@@ -2,13 +2,28 @@
 <scheme version="2.0" title="" description="">
   <nodes>
     <node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="7662746/age-groups.hxl.tab" position="(51.0, 244.0)"/>
-    <node id="1" name="Random Forest" qualified_name="Orange.widgets.model.owrandomforest.OWRandomForest" project_name="Orange3" version="" title="Random Forest" position="(251.0, 460.0)"/>
+    <node id="1" name="Random Forest" qualified_name="Orange.widgets.model.owrandomforest.OWRandomForest" project_name="Orange3" version="" title="#item+age_group" position="(244.0, 460.0)"/>
     <node id="2" name="Tree" qualified_name="Orange.widgets.model.owtree.OWTreeLearner" project_name="Orange3" version="" title="Tree" position="(245.0, 387.0)"/>
     <node id="3" name="Tree Viewer" qualified_name="Orange.widgets.visualize.owtreeviewer.OWTreeGraph" project_name="Orange3" version="" title="Tree Viewer" position="(406.0, 394.0)"/>
     <node id="4" name="Test and Score" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" project_name="Orange3" version="" title="Test and Score" position="(433.0, 243.0)"/>
     <node id="5" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="7662746/age-groups.testdata.hxl.tab" position="(240.0, 278.0)"/>
     <node id="6" name="Confusion Matrix" qualified_name="Orange.widgets.evaluate.owconfusionmatrix.OWConfusionMatrix" project_name="Orange3" version="" title="Confusion Matrix" position="(594.0, 244.0)"/>
-    <node id="7" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table" position="(778.0, 240.0)"/>
+    <node id="7" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table" position="(774.0, 244.0)"/>
+    <node id="8" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="7662746/marriage-age.hxl.tab" position="(63.0, 553.0)"/>
+    <node id="9" name="Random Forest" qualified_name="Orange.widgets.model.owrandomforest.OWRandomForest" project_name="Orange3" version="" title="#item+marriage_group" position="(256.0, 771.0)"/>
+    <node id="10" name="Tree" qualified_name="Orange.widgets.model.owtree.OWTreeLearner" project_name="Orange3" version="" title="Tree (1)" position="(257.0, 696.0)"/>
+    <node id="11" name="Tree Viewer" qualified_name="Orange.widgets.visualize.owtreeviewer.OWTreeGraph" project_name="Orange3" version="" title="Tree Viewer (1)" position="(418.0, 703.0)"/>
+    <node id="12" name="Test and Score" qualified_name="Orange.widgets.evaluate.owtestandscore.OWTestAndScore" project_name="Orange3" version="" title="Test and Score (1)" position="(445.0, 552.0)"/>
+    <node id="13" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="7662746/age-groups.testdata.hxl.tab" position="(252.0, 587.0)"/>
+    <node id="14" name="Confusion Matrix" qualified_name="Orange.widgets.evaluate.owconfusionmatrix.OWConfusionMatrix" project_name="Orange3" version="" title="Confusion Matrix (1)" position="(606.0, 553.0)"/>
+    <node id="15" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (1)" position="(789.0, 553.0)"/>
+    <node id="16" name="Predictions" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" project_name="Orange3" version="" title="Predictions" position="(412.0, 907.0)"/>
+    <node id="17" name="Select Columns" qualified_name="Orange.widgets.data.owselectcolumns.OWSelectAttributes" project_name="Orange3" version="" title="Select Columns" position="(239.5, 917.0)"/>
+    <node id="18" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (2)" position="(571.0, 905.0)"/>
+    <node id="19" name="Predictions" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" project_name="Orange3" version="" title="Predictions (1)" position="(901.0, 898.0)"/>
+    <node id="20" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWDataTable" project_name="Orange3" version="" title="Data Table (3)" position="(1121.0, 902.0)"/>
+    <node id="21" name="Save Data" qualified_name="Orange.widgets.data.owsave.OWSave" project_name="Orange3" version="" title="Save Data" position="(1309.0, 897.0)"/>
+    <node id="22" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="1568346/person.in.data.hxl.csv" position="(54.0, 919.0)"/>
   </nodes>
   <links>
     <link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true"/>
@@ -20,17 +35,48 @@
     <link id="6" source_node_id="2" sink_node_id="4" source_channel="Learner" sink_channel="Learner" enabled="true"/>
     <link id="7" source_node_id="4" sink_node_id="6" source_channel="Evaluation Results" sink_channel="Evaluation Results" enabled="true"/>
     <link id="8" source_node_id="6" sink_node_id="7" source_channel="Selected Data" sink_channel="Data" enabled="true"/>
+    <link id="9" source_node_id="8" sink_node_id="9" source_channel="Data" sink_channel="Data" enabled="true"/>
+    <link id="10" source_node_id="8" sink_node_id="10" source_channel="Data" sink_channel="Data" enabled="true"/>
+    <link id="11" source_node_id="10" sink_node_id="11" source_channel="Model" sink_channel="Tree" enabled="true"/>
+    <link id="12" source_node_id="9" sink_node_id="12" source_channel="Learner" sink_channel="Learner" enabled="true"/>
+    <link id="13" source_node_id="8" sink_node_id="12" source_channel="Data" sink_channel="Data" enabled="true"/>
+    <link id="14" source_node_id="13" sink_node_id="12" source_channel="Data" sink_channel="Test Data" enabled="true"/>
+    <link id="15" source_node_id="10" sink_node_id="12" source_channel="Learner" sink_channel="Learner" enabled="true"/>
+    <link id="16" source_node_id="12" sink_node_id="14" source_channel="Evaluation Results" sink_channel="Evaluation Results" enabled="true"/>
+    <link id="17" source_node_id="14" sink_node_id="15" source_channel="Selected Data" sink_channel="Data" enabled="true"/>
+    <link id="18" source_node_id="1" sink_node_id="16" source_channel="Model" sink_channel="Predictors" enabled="true"/>
+    <link id="19" source_node_id="17" sink_node_id="16" source_channel="Data" sink_channel="Data" enabled="true"/>
+    <link id="20" source_node_id="16" sink_node_id="18" source_channel="Predictions" sink_channel="Data" enabled="true"/>
+    <link id="21" source_node_id="9" sink_node_id="19" source_channel="Model" sink_channel="Predictors" enabled="true"/>
+    <link id="22" source_node_id="18" sink_node_id="19" source_channel="Selected Data" sink_channel="Data" enabled="true"/>
+    <link id="23" source_node_id="19" sink_node_id="20" source_channel="Predictions" sink_channel="Data" enabled="true"/>
+    <link id="24" source_node_id="20" sink_node_id="21" source_channel="Selected Data" sink_channel="Data" enabled="true"/>
+    <link id="25" source_node_id="22" sink_node_id="17" source_channel="Data" sink_channel="Data" enabled="true"/>
   </links>
   <annotations>
     <text id="0" type="text/plain" rect="(17.0, 109.0, 150.0, 50.0)" font-family="Ubuntu" font-size="16">age-group
 trainer</text>
     <arrow id="1" start="(49.0, 158.0)" end="(49.0, 208.0)" fill="#C1272D"/>
+    <text id="2" type="text/plain" rect="(275.0, 104.0, 150.0, 105.0)" font-family="Ubuntu" font-size="16">age-group
+testdata
+(good idea be dedicated file)</text>
+    <arrow id="3" start="(304.0, 191.0)" end="(265.0, 247.0)" fill="#C1272D"/>
+    <text id="4" type="text/plain" rect="(14.0, 410.0, 150.0, 50.0)" font-family="Ubuntu" font-size="16">marriage-age
+trainer</text>
+    <arrow id="5" start="(68.0, 466.0)" end="(68.0, 521.0)" fill="#C1272D"/>
   </annotations>
   <thumbnail/>
   <node_properties>
-    <properties node_id="1" format="literal">{'auto_apply': True, 'class_weight': False, 'controlAreaVisible': True, 'index_output': 0, 'learner_name': '', 'max_depth': 3, 'max_features': 5, 'min_samples_split': 5, 'n_estimators': 10, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xd4\x00\x00\x04\xd5\x00\x00\x04\x98\x00\x00\x06\x7f\x00\x00\x02\xd4\x00\x00\x04\xfa\x00\x00\x04\x98\x00\x00\x06\x7f\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x02\xd4\x00\x00\x04\xfa\x00\x00\x04\x98\x00\x00\x06\x7f', 'use_max_depth': False, 'use_max_features': False, 'use_min_samples_split': True, 'use_random_state': False, '__version__': 1}</properties>
+    <properties node_id="1" format="literal">{'auto_apply': True, 'class_weight': False, 'controlAreaVisible': True, 'index_output': 0, 'learner_name': '', 'max_depth': 3, 'max_features': 5, 'min_samples_split': 5, 'n_estimators': 10, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xa9\x00\x00\x02\x05\x00\x00\x04m\x00\x00\x03\xaf\x00\x00\x02\xa9\x00\x00\x02*\x00\x00\x04m\x00\x00\x03\xaf\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\xa9\x00\x00\x02*\x00\x00\x04m\x00\x00\x03\xaf', 'use_max_depth': False, 'use_max_features': False, 'use_min_samples_split': True, 'use_random_state': False, '__version__': 1}</properties>
     <properties node_id="2" format="literal">{'auto_apply': True, 'binary_trees': True, 'controlAreaVisible': True, 'learner_name': '', 'limit_depth': False, 'limit_majority': False, 'limit_min_internal': False, 'limit_min_leaf': False, 'max_depth': 100, 'min_internal': 5, 'min_leaf': 2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xfa\x00\x00\x00\xf6\x00\x00\x04r\x00\x00\x02\x83\x00\x00\x02\xfa\x00\x00\x01\x1b\x00\x00\x04r\x00\x00\x02\x83\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\xfa\x00\x00\x01\x1b\x00\x00\x04r\x00\x00\x02\x83', 'sufficient_majority': 95, '__version__': 1}</properties>
     <properties node_id="7" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xb0\x00\x00\x01q\x00\x00\x07\x1c\x00\x00\x03\xc1\x00\x00\x02\xb0\x00\x00\x01q\x00\x00\x07\x1c\x00\x00\x03\xc1\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\xb0\x00\x00\x01q\x00\x00\x07\x1c\x00\x00\x03\xc1', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+    <properties node_id="9" format="literal">{'auto_apply': True, 'class_weight': False, 'controlAreaVisible': True, 'index_output': 0, 'learner_name': '', 'max_depth': 3, 'max_features': 5, 'min_samples_split': 5, 'n_estimators': 10, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xd4\x00\x00\x04\xd5\x00\x00\x04\x98\x00\x00\x06\x7f\x00\x00\x02\xd4\x00\x00\x04\xfa\x00\x00\x04\x98\x00\x00\x06\x7f\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\x00\x00\x02\xd4\x00\x00\x04\xfa\x00\x00\x04\x98\x00\x00\x06\x7f', 'use_max_depth': False, 'use_max_features': False, 'use_min_samples_split': True, 'use_random_state': False, '__version__': 1}</properties>
+    <properties node_id="10" format="literal">{'auto_apply': True, 'binary_trees': True, 'controlAreaVisible': True, 'learner_name': '', 'limit_depth': False, 'limit_majority': False, 'limit_min_internal': False, 'limit_min_leaf': False, 'max_depth': 100, 'min_internal': 5, 'min_leaf': 2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\x04\x00\x00\x02\xaa\x00\x00\x04|\x00\x00\x047\x00\x00\x03\x04\x00\x00\x02\xcf\x00\x00\x04|\x00\x00\x047\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03\x04\x00\x00\x02\xcf\x00\x00\x04|\x00\x00\x047', 'sufficient_majority': 95, '__version__': 1}</properties>
+    <properties node_id="15" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\xb0\x00\x00\x01'\x00\x00\x07\x1c\x00\x00\x03\x9c\x00\x00\x02\xb0\x00\x00\x01L\x00\x00\x07\x1c\x00\x00\x03\x9c\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\xb0\x00\x00\x01L\x00\x00\x07\x1c\x00\x00\x03\x9c", 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+    <properties node_id="18" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x7f\x00\x00\x00\x1b\x00\x00\x07\x01\x00\x00\x03\xc7\x00\x00\x00\x7f\x00\x00\x00@\x00\x00\x07\x01\x00\x00\x03\xc7\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\x7f\x00\x00\x00@\x00\x00\x07\x01\x00\x00\x03\xc7', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+    <properties node_id="20" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x7f\x00\x00\x00\x1b\x00\x00\x07\x01\x00\x00\x03\xc7\x00\x00\x00\x7f\x00\x00\x00@\x00\x00\x07\x01\x00\x00\x03\xc7\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x00\x7f\x00\x00\x00@\x00\x00\x07\x01\x00\x00\x03\xc7', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': False, '__version__': 2}</properties>
+    <properties node_id="21" format="literal">{'add_type_annotations': False, 'auto_save': True, 'controlAreaVisible': True, 'filter': 'Comma-separated values (*.csv)', 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03'\x00\x00\x01}\x00\x00\x04\xd9\x00\x00\x02F\x00\x00\x03'\x00\x00\x01\xa2\x00\x00\x04\xd9\x00\x00\x02F\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03'\x00\x00\x01\xa2\x00\x00\x04\xd9\x00\x00\x02F", 'stored_name': 'person.random-forest.out.data.hxl.csv', 'stored_path': '1568346', '__version__': 3}</properties>
+    <properties node_id="22" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'VarPath', 'name': 'basedir', 'relpath': '1568346/person.in.data.hxl.csv'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 4, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': '/workspace/git/EticaAI/lsf-orange-data-mining/1568346', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\x10\x00\x00\x01-\x00\x00\x04[\x00\x00\x02\x95\x00\x00\x03\x10\x00\x00\x01R\x00\x00\x04[\x00\x00\x02\x95\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x03\x10\x00\x00\x01R\x00\x00\x04[\x00\x00\x02\x95', '__version__': 3}</properties>
   </node_properties>
   <session_state>
     <window_groups/>
