@@ -20,6 +20,7 @@ pip install orange3
 pip install Orange3-Geo
 pip install Orange3-Timeseries
 pip install orange3-text
+pip install Orange3-Explain
 
 # @TODO explain how to install https://github.com/fititnt/orange3-hxl
 

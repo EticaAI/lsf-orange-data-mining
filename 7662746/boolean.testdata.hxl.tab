@@ -1,0 +1,21 @@
+#item+class+source	#item+class
+discrete	false true
+	class
+false	false
+true	true
+0	false
+1	true
+f	false
+t	true
+n	false
+y	true
+no	false
+yes	true
+FALSE	false
+TRUE	true
+no	false
+si	true
+sí	true
+nao	false
+não	false
+sim	true

@@ -1,0 +1,35 @@
+#item+ix_zzbcp47	#item+class+source	#item+class
+discrete	discrete	false true unknown
+		class
+und	false	false
+und	true	true
+und	unknown	unknown
+und	UNKNOWN	unknown
+und	null	unknown
+und	NULL	unknown
+und	None	unknown
+und	nil	unknown
+und	0	false
+und	1	true
+und	f	false
+und	t	true
+und	n	false
+und	y	true
+und	no	false
+und	yes	true
+und	FALSE	false
+und	TRUE	true
+und	False	false
+und	True	true
+und	off	false
+und	on	true
+en	false	false
+en	true	true
+en	no	false
+en	yes	true
+es	no	false
+es	si	true
+es	sí	true
+pt	nao	false
+pt	não	false
+pt	sim	true

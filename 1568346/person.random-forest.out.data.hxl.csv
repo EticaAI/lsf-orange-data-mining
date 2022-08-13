@@ -1,7 +1,7 @@
 #item+id,#item+age,#meta+comment,#item+age_group,#item+marriage_group
 1.0,0.001,,neonate,false
-2.0,1.0,,toddler,false
-3.0,2.0,,toddler,false
+2.0,1.0,,infant,false
+3.0,2.0,,child,false
 4.0,3.0,,child,false
 5.0,4.0,,child,false
 6.0,5.0,,child,false
@@ -19,7 +19,7 @@
 18.0,17.0,marriage-age can fail,adolescent,true
 19.0,18.0,marriage-age can fail,adolescent,true
 20.0,19.0,marriage-age can fail,adolescent,true
-21.0,20.0,marriage-age can fail,adolescent,true
+21.0,20.0,marriage-age can fail,adult,true
 22.0,21.0,,adult,true
 23.0,22.0,,adult,true
 24.0,23.0,,adult,true
