@@ -1,0 +1,15 @@
+#item+age	#item+marriage_group
+continuous	false true
+	class
+0.1	false
+5.5	false
+7.5	false
+8.0	false
+9.0	false
+10.0	false
+13.0	false
+18.1	true
+21.1	true
+22.0	true
+25.5	true
+55.5	true
