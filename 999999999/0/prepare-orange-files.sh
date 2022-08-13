@@ -60,6 +60,11 @@ format_orange_project_files() {
 format_orange_project_files \
   "data-etl.temp.ows" \
   "data-etl__v2.temp.ows"
+
 format_orange_project_files \
   "data-info-geo.temp.ows" \
   "data-info-geo.ows"
+
+format_orange_project_files \
+  "classifier-rule-based.temp.ows" \
+  "classifier-rule-based.ows"
